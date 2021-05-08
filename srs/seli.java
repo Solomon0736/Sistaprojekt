@@ -43,7 +43,6 @@ public class seli {
                     String Name = användernamn.getText();
                     String pass = lösenord.getText();
 
-
                     while (rset.next()) {
                         if (Name.equals(rset.getString("username")) && pass.equals(rset.getString("Password"))) {
                             frame.dispose();
@@ -51,7 +50,6 @@ public class seli {
                             break;
                         } else {
                             System.out.println("Du har fel användare eller password");
-                            //Skapa skapa = new Skapa();
                         }
                     }
 
@@ -75,13 +73,13 @@ public class seli {
         nyttButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                Skapa skapa =new Skapa();
+                Skapa skapa = new Skapa();
             }
-        });
+            });
+
     }
 
     public static void main(String[] args) {
-        seli log = new seli();
-
+       seli seli = new seli();
     }
 }
