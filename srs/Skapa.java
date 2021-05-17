@@ -57,9 +57,7 @@ public class Skapa {
                    /* System.out.println("id:");
                     String id = i.getText();*/
                     //String id = anvädernamn2.getText();
-                    System.out.println(" skriv usernamne:");
                     String username = anvädernamn2.getText();
-                    System.out.println("skriv Password:");
                     String Password =lösenord.getText();
 
                     SQLQuery = "INSERT INTO user(username,Password) " +
@@ -79,8 +77,8 @@ public class Skapa {
             }
         });
     }
-    public static void main(String[] args) {
-        Skapa skapa = new Skapa();
+    //public static void main(String[] args) {
+     //   Skapa skapa = new Skapa();
 
-    }
+   // }
 }

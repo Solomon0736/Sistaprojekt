@@ -60,7 +60,6 @@ public class seli {
             }
         });
 
-
         clearButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -76,7 +75,6 @@ public class seli {
                 Skapa skapa = new Skapa();
             }
             });
-
     }
 
     public static void main(String[] args) {
