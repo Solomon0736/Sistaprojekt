@@ -10,8 +10,8 @@ import java.util.Arrays;
         public ArrayList<Enter> getEntries() { return entries; }
         public Model() { this.entries = new ArrayList<>(); }
 
-        public Enter createEnter(String body, String user,String datum,String id) {
-            Enter enter = new Enter(body,user,datum,id);
+        public Enter createEnter(String id, String namn, String meddelande) {
+            Enter enter = new Enter(id,namn,meddelande);
             this.entries.add(enter);
             return enter;
 

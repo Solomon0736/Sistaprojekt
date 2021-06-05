@@ -3,7 +3,6 @@ public class Enter {
         String id;
         String namn;
         String meddelande;
-        String datum;
 
         public String getBody() {
             return id;
@@ -17,13 +16,11 @@ public class Enter {
             return meddelande;
         }
 
-        public String getId() { return datum; }
 
-        public Enter(String id, String namn, String meddelande, String datum) {
+        public Enter(String id, String namn, String meddelande) {
             this.id = id;
             this.namn = namn;
             this.meddelande=meddelande;
-            this.datum= datum;
         }
 
     }

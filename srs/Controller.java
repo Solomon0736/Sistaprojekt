@@ -18,28 +18,26 @@ import java.sql.Statement;
      String password = "password";
      private View view;
 
-     public Controller(seli seli, Skapa skapa) {
+     public Controller(View view,seli seli,Model model) {
          this.model = model;
          this.view = view;
-         this.seli=seli;
-         this.skapa=skapa;
+         this.seli = seli;
 
-        this.view.addsparaButtonListener(new sparaButtonListener());
-        // this.view.addvisaListener(new SparafilListener());
+         this.view.addsparaButtonListener(new sparaButtonListener());
+         this.view.addvisaListener(new visaListener());
+
      }
 
-
-     /*private class sparaButtonListener implements ActionListener {
+     private class visaListener implements ActionListener {
          public void actionPerformed(ActionEvent e) {
              String id = view.getIdtext();
              String namn = view.getNamnTextField();
-             String datum = view.getDatumText();
             String meddelande = view.getMeddelandeTextField();
 
-             model.createEnter(id, namn, datum,meddelande);
+             model.createEnter(id, namn, meddelande);
              view.appdatelist(model.getEntries());
          }
-     }*/
+     }
 
      private class sparaButtonListener implements ActionListener {
          public void actionPerformed(ActionEvent e) {
@@ -48,15 +46,13 @@ import java.sql.Statement;
                          "allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC", "solomon", password);
                  Statement stmt = conn.createStatement();
 
+                 String id = view.getIdtext();
+                 String namn = view.getNamnTextField();
+                 String meddelande = view.getMeddelandeTextField();
 
-                 String SQLquery = "INSERT INTO story(id,user,Datum,body) " +
-                         "VALUES (`id`, `namn`, `meddelande`, `Datum`)";
-
-                 String body = view.getBodyText();
-                 String user = view.getUserText();
-                 String datum = view.getDatumText();
-                 String id = view.getIdText();
-
+                 String SQLquery = "INSERT INTO story(namn,meddelande) " +
+                         "VALUES ('"+namn+"','"+ meddelande+"')";
+                 System.out.println(SQLquery);
                  stmt.executeUpdate(SQLquery);
                  File.save(model, "model.obj");
 
@@ -71,12 +67,9 @@ import java.sql.Statement;
          public void actionPerformed(ActionEvent e) {
              try {
                  model = File.load("model.obj");
-             } catch (IOException ex) {
-                 ex.printStackTrace();
-             } catch (ClassNotFoundException ex) {
-                 ex.printStackTrace();
+             } catch (IOException | ClassNotFoundException ignored) {
+
              }
-             view.appdatelist(model.getEntries());
 
 
          }

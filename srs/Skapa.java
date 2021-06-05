@@ -14,6 +14,7 @@ public class Skapa {
     private JLabel name2;
     private JLabel code2;
     private JButton klarButton;
+    private JButton tillbakaButton;
     String password = "password";
     public Skapa() {
         JFrame frame = new JFrame("");
@@ -76,6 +77,12 @@ public class Skapa {
 
             }
         });
+       /* tillbakaButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                seli seli = new seli();
+            }
+        });*/
     }
     //public static void main(String[] args) {
      //   Skapa skapa = new Skapa();
