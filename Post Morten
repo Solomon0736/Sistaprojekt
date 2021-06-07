@@ -3,11 +3,17 @@
 
 Inledning
 Den har slut projekt hade tänkte att koplitera på den förra uppgiften som var om loggboken. Den förra logining sågs ut lite analunda eftersom jag jag strade loging 
-då får alla mappar tillsamans och detta beror att jag hade gjort nånting fel i controller. Loging handlar om att göra en loging 
+då får alla mappar tillsamans och detta beror att jag hade gjort nånting fel i controller. Loggboken handlar att man ska kunna loga in i en formlaning, efter man gör 
+det då får ett mail från annan person och kunna skicka tillbaka mail till samma personen.  
 
 Här beskriver du kortfattat arbetets syfte/mål, arbetssätt, genomförande.
 
 ## Bakgrund
+Loggboken besår av tre olika delar och varje del har sitt uppgit så att loogboken ska funka som den ska. Den första delen som man får är loggin förmulera där ska man förska loga in med rätt användare och lösenordet.
+Båda användare och lösenord har kopplat med databassen som hjälper att komma in emn om man skreviver fel en ut av de då får fel madelandet. Efter det kommer den andra viktiga delen 
+som är skapa ett nytt användare och lösnordet. När man skappat ett nytt då går den sparas till databassen och man kan skapa hur mycket som helset om man glömmer användare och lösenordet.
+Den sista delen är meddelandet som kommer från annan person som är databassen. Jag kommer få i lista alla meddelandet och i meddelandet kommer stå namn på personen som skickat,
+datum som har skickat och själva meddelandet. Efter jag har läst meddelansdet kommer kunna skicka tillbaka till databassen och i slutet kommer jag få alla meddelandet som har fåt och skickat i listor.
 
 Redovisa arbetets olika delar. Så att läsaren förstår vad du gjort och hur.
 
