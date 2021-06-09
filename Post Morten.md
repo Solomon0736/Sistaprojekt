@@ -2,28 +2,19 @@
                             Slutprojekt
             Solomon Tikabo, 2020/21/20
 
-Inledning
-Den har slut projekt hade tänkte att koplitera på den förra uppgiften som var loggboken. Den förra logining sågs ut lite analunda eftersom alla mappar kom fram när man 
-startar prjektet samt jag kunna inte gör edit från intliji till dartabassen. Loggboken handlar att man ska kunna loga in i en sida med rätt användare och lösenorden som är kopplat med databassen och kunna gå vidare till nästa sida. I nästa stegetkommer man få ett mail från annan person och kunna skicka tillbaka mail till samma personen.  
+## Inledning
+Den har slut projekt hade tänkte att komplettera på den förra uppgiften som var loggboken. Den förre logining sågs ut lite annorlunda eftersom alla mappar kom fram när man startar projektet samt jag kunna inte gör edit från intliji till databasen. Loggboken handlar att man ska kunna logga in i en sida med rätt användare och lösenorden som är kopplat med databasen och kunna gå vidare till nästa sida. I nästa steg kommer man få ett mail från annan person och kunna skicka tillbaka mail till samma personen.
 
 ## Bakgrund
-Loggboken besår av tre olika delar och varje del har sitt uppgit att göra så att logboken ska funka som den ska. Den första delen som man får är loggin förmulera 
-där ska man förska loga in med rätt användare och lösenordet. Båda användare och lösenord har kopplat med databassen som hjälper att komma in och om man skrev
-fel en ut av de då får man ett fel madelandet. Efter det kommer den andra viktiga delen som är skapa ett nytt användare och lösnordet. När man skappat ett nytt då går den 
-sparas till databassen och man kan skapa hur många som helset om man glömmer användare och lösenordet.
-
-Den sista delen är meddelandet som kommer från annan person som är databassen. Jag kommer få i lista på de alla meddelandet som har sparats i databassen och i själva meddelandet delen kommerdet finnas namn på personen som skickat och själva meddelandet. Efter jag har läst meddelandet kommer kunna skicka tillbaka till databassen och i slutet kommer jag få alla meddelandet som har fåt och skickat i listor. Jag har ritat i fgma strukturen [figma.loggin](https://www.figma.com/file/MU1PvfcTK5NiwuTcbwpLHM/magnus-team-library?node-id=312%3A2)
+Loggboken består av tre olika delar och varje del har sitt uppgift att göra så att loggboken ska funka som den ska. Den första delen som man får är logging formulera där ska man försöka logga in med rätt användare och lösenordet. Både användare och lösenord har kopplat med databasen som hjälper att komma in och om man skrev fel en utav de då får man ett fel meddelandet. Efter det kommer den andra viktiga delen som är skapa ett nytt användare och lösenordet. När man skapat ett nytt då går den sparas till databasen och man kan skapa hur många som helst om man glömmer användare och lösenordet.
+Den sista delen är meddelandet som kommer från annan person som är databasen. Jag kommer få i lista på de alla meddelandet som har sparats i databasen och i själva meddelandet delen kommer det finnas namn på personen som skickat och själva meddelandet. Efter jag har läst meddelandet kommer kunna skicka tillbaka till databasen och i slutet kommer jag få alla meddelandet som har fått och skickat i listor. Jag har ritat i figma strukturen [figma.log in](https://www.figma.com/file/MU1PvfcTK5NiwuTcbwpLHM/magnus-team-library?node-id=312%3A2)
 
 ## Positiva erfarenheter
-Jag har fått erfanihet på hur kan använda java-språket och hur kan man lösa problem. Den har login var inte så komplicerad för mig men jag hade stötit på visa saker. Det looog tid för att skpa en databassen men jag löste det genom att kollan Jens kursboken. Även connektion hade gått av så jag tvingade mig att skapa ett nytt connektion men längra tid innan jag visste problemet. Jag har använt login projekten i MVC struktur 
-
-Här beskriver du vad som har gått bra i ditt projekt och analyserar varför. Hur ska du upprepa framgångarna.
+Jag har fått erfarenhet på hur kan använda java-språket och hur kan man lösa problem. Den har login var inte så komplicerad för mig men jag hade stött på visa saker. Jag låg lite tid för att skapa en databasen men jag löste det genom att kollan Jens kursboken på hur man skapar det. Även connection hade gått av så jag tvingade mig att skapa ett nytt connection men längre tid innan jag visste problemet. Jag har använt login projekten i MVC struktur vilket känner bekväm med det.
 
 ## Negativa erfarenheter
-
-Här beskriver du det som du anser har gått mindre bra med ditt projekt och analyserar hur du kan undvika detta i framtida projekt.
+Det som har gått mindre bra med projektet är att jag kunde inte spara alla meddelande i ett fil och samtidig kunna hämta från filen. Jag har börjat spara allt meddelandet i en fil men jag hann inte göra eftersom hade kort tid. Även jag hade tänkt att skicka meddelandet till andra datorer men jag mycket koll på hur man gör det under kort tiden.
 
 ## Sammanfattning
+Slutsatsen logging projekt funkar bra som jag har förväntas även vissa saker inte uppfyllt och den är användbart. Jag har lärt mig hur kan använda databasen, java-språket och kunna connecta mellan intellij med mysql. Jag har fått bättre erfarenhet på hur kan man använda MVC-struktur och hur viktig det är att använda denna struktur för det blir enklare att lösa problem sennar. De flesta saker funkar som skapa,loga och kunna se meddelandet men som jag skrev innan att kunna exportera och importera meddelanden i en fil.
 
-Här redovisar du dina slutsatser, erfarenheter och lärdomar. Reflektera över din produkt och dess/dina utvecklingsmöjligheter.
-Vad kan vidareutvecklas och finns det utrymme att bygga vidare på projektet.
